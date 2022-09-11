@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/output.css">
+    <title>Pendidikan</title>
+</head>
+<body class="bg-body">
+
+    <!-- NAVBAR -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="index.html" class="font-bold text-lg text-primary block py-6">Sinau <span class="text-black text-[10px]"><i class='bx bxs-circle'></i></span></a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" class="block absolute right-4 md:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-body w-full right-0 top-full md:block md:static md:bg-transparent md:max-w-full">
+                        <ul class="block h-[100vh] md:flex md:h-full">
+                            <li class="group">
+                                <a href="index.html" class="text-base text-primary py-10 mx-8 flex md:py-2">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="artikelhome.html" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Artikel</a>
+                            </li>
+                            <li class="group">
+                                <a href="about.html" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Tentang</a>
+                            </li>
+                            <li class="group">
+                                <a href="community.html" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Komunitas</a>
+                            </li>
+                            <li class="group">
+                                <a href="contact.html" class="text-base   text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Kontak</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="pt-20 md:pt-32 pb-20">
+            <div class="container">
+                <div class="flex flex-wrap justify-center">
+                    <div class="md:hidden w-full self-end px-4 md:w-1/2">
+                        <div class="relative md:mt-0 right-0">
+                            <img id="heroIMG" src="img/hero3.png" alt="Heical" class="mx-auto max-w-full">
+                        </div>
+                    </div>
+    
+                    <div class="hero-left md:w-1/2  md:block md:justify-center md:mx-auto self-center">
+                        <h3 class="text-slate-700 font-bold mx-4 text-5xl text-center md:text-left mt-4">
+                            Selamat Datang di SDGs <span class="text-primary">Sinau</span><span class="text-black text-[10px]"><i class='bx bxs-circle'></i></span>
+                            <div class="bg-primary text-primary h-1 w-32 mt-5 mx-auto md:mx-0"></div>
+                        </h3>
+                        <h5 class="text-slate-600 mt-4 font-semibold text-md mb-4 text-center md:text-left md:mx-4">Sinau adalah media yang secara periodik menyajikan informasi perkembangan kondisi infrastruktur pendidikan Indonesia.</h5>
+                        <h5 class="text-primary mt-4 font-extralight text-sm mb-4 text-center md:text-left md:mx-4">Silakan cari informasi yang ingin Anda ketahui disini!</h5>
+                        <div class="flex mx-auto justify-center md:justify-start">
+                            <a id="mulai" class="mx-2 px-4 py-2 bg-primary rounded-xl text-white hover:bg-white hover:text-primary text-[13px] font-semibold" href="#artikel">Yuk, Gas Eksplor</a>
+                            <a class="mx-2 px-4 py-2 bg-white rounded-xl text-primary hover:bg-primary hover:text-white text-[13px] border-solid border-primary border-2 font-semibold" href="community.html"><span><i class='bx bx-group'></i></span> Gabung Komunitas</a>
+                        </div>
+                    </div>
+    
+                    <div class="hidden md:block w-full self-end px-4 md:w-1/2">
+                        <div class="mt-10 md:mt-0 right-0">
+                            <img id="heroIMG" src="img/hero.png" alt="Heical" class="mx-auto max-w-[50opacity-50%]">
+                        </div>
+                    </div>
+
+                    <section id="copyright" class="mt-10 w-full">
+                        <div class="container">
+                            <div class="block md:flex md:justify-between">
+                                <div class="Ckiri text-center md:text-start">
+                                    <p class="text-primary font-semibold">Copyright © 2022 | All rights reserved.</p>
+                                </div>
+                                <div class="Ckanan mt-3 md:mt-0 md:mr-5">
+                                    <ul class="flex justify-center">
+                                        <li>
+                                            <a href="#"><img class="w-[25px] m-1" src="img/dc.png" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img class="w-[25px] m-1" src="img/linkin.png" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img class="w-[25px] m-1" src="img/slack.dbb85b3a.png" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img class="w-[25px] m-1" src="img/twitter.9858c373.png" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+    </section>
+
+    <!-- DATA -->
+    <section id="data" class="pb-20">
+        <div class="container">
+            <div class="flex">
+                <div class="w-full flex flex-wrap">
+                    <div id="bgdata" style="background-image: url(img/biru.png); background-attachment: scroll; background-size: cover; padding: 65px 0px 65px 0px; background-position: center;" class=" bg-biru text-center w-1/2 md:w-1/4">
+                        <h1 class="text-5xl font-semibold blur-none text-slate-600 mb-3">69.2</h1>
+                        <p>Capaian SDGs</p>
+                    </div>
+                    <div id="bgdata" style="background-image: url(img/kuning.png); background-attachment: scroll; background-size: cover; padding: 65px 0px 65px 0px; background-position: center;" class=" bg-biru text-center w-1/2 md:w-1/4">
+                        <h1 class="text-5xl font-semibold blur-none text-slate-600 mb-3">54</h1>
+                        <p>Peringkat Pendidikan</p>
+                    </div>
+                    <div id="bgdata" style="background-image: url(img/biru.png); background-attachment: scroll; background-size: cover; padding: 65px 0px 65px 0px; background-position: center;" class=" bg-biru text-center w-1/2 md:w-1/4">
+                        <h1 class="text-5xl font-semibold blur-none text-slate-600 mb-3">0,18%</h1>
+                        <p>Anak Putus Sekolah</p>
+                    </div>
+                    <div id="bgdata" style="background-image: url(img/kuning.png); background-attachment: scroll; background-size: cover; padding: 65px 0px 65px 0px; background-position: center;" class=" bg-biru text-center w-1/2 md:w-1/4">
+                        <h1 class="text-5xl font-semibold blur-none text-slate-600 mb-3">217.283+</h1>
+                        <p>Total Sekolah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spoiler  -->
+<div class="container mt-24 px-6 mx-auto">
+    <section id="spoiler" class="mb-32">  
+      <div class="flex flex-wrap">
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
+          <div class="flex lg:py-12">
+            <img src="img/anak.jpg" class="w-full rounded-lg shadow-lg"
+              id="cta-img-nml-50" style="z-index: 10" alt="" />
+          </div>
+        </div>
+  
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+          <div
+            class="bg-primary bg-opacity-10 h-full rounded-lg p-6 lg:pl-12 text-black flex items-center text-center lg:text-left">
+            <div class="lg:pl-12">
+              <h2 class="text-3xl font-bold mb-6 text-slate-700">Ketimpangan Infrastruktur Pendidikan Desa dan Kota</h2>
+              <p class="pb-2 lg:pb-0 mb-5 text-slate-500">
+                Pendidikan adalah gerbang menuju kehidupan yang lebih baik. Pendidikan merupakan dasar dari budaya dan peradaban yang membuat manusia berpikir, menganalisa, serta memutuskan. Pendidikan mampu menumbuhkan karakter pada diri seseorang dan menciptakan Sumber Daya Manusia yang lebih baik. Sehingga dibutuhkan infrastruktur yang bermutu untuk mendukung pembelajaran. Untuk itu, setiap orang berhak mendapat infrastruktur pendidikan secara menyeluruh untuk kesejahteraan umum dan mencerdaskan kehidupan bangsa sebagaimana yang tercantum dalam UUD 1945...
+              </p>
+              <a id="mulai" class="mx-5 -ml-1 px-4 py-2 bg-primary rounded-xl text-white hover:bg-white hover:text-primary text-[13px] font-semibold" href="artikel.html">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+  
+  </div>
+  <!-- Container for demo purpose -->
+
+    <!-- Spoiler -->
+
+    <!-- ARTIKEL -->
+    <section id="artikel" class="w-full mb-36 pt-24">
+        <div class="container">
+            <div class=" text-body bg-primary w-32 text-center mx-auto h-2 rounded-tr-lg rounded-bl-lg mb-10">
+                .
+            </div>
+            <h3 class="text-center font-bold text-3xl mb-8 text-slate-700">Artikel Pendidikan</h3>
+            <div class="flex flex-wrap justify-center">
+                <div class="card mb-10 md:w-1/3">
+                    <h4 class="text-center font-semibold text-xl text-slate-700">Ketimpangan Infrastruktur Pendidikan Desa dan Kota</h4>
+                    <p class="text-slate-500 text-center mb-4">Sulitnya akses pendidikan di Indonesia yang tidak merata.</p>
+                    <img width="90%" src="img/anakkotak.jpg" alt="" class="rounded-2xl mb-5 mx-auto shadow-xl">
+                    <a href="artikel.html" class="text-center px-5 py-3 bg-primary text-white font-semibold rounded-lg flex w-36 mx-auto">Mulai Eksplor</a>
+                </div>
+                
+
+                <div class="card mb-10 md:w-1/3">
+                    <h4 class="text-center font-semibold text-xl text-slate-700">Kondisi Infrastruktur Pendidikan Di Indonesia</h4>
+                    <p class="text-slate-500 text-center mb-4">Kurangnya sarana dan prasarana dalam proses pendidikan.</p>
+                    <img width="90%" src="img/anak2kotak.jpg" alt="" class="rounded-2xl mb-5 mx-auto shadow-xl">
+                    <a href="artikel2.html" class="text-center px-5 py-3 bg-primary text-white font-semibold rounded-lg flex w-36 mx-auto">Mulai Eksplor</a>
+                </div>
+
+                <div class="card mb-10 md:w-1/3">
+                    <h4 class="text-center font-semibold text-xl text-slate-700">Peran Masyarakat Dalam Membangun Infrastruktur Pendidikan</h4>
+                    <p class="text-slate-500 text-center mb-4">Peran serta masyarakat dalam mendukung kemajuan.</p>
+                    <img width="90%" src="img/gambar4kotak.jpg" alt="" class="rounded-2xl mb-5 mx-auto shadow-xl">
+                    <a href="artikel3.html" class="text-center px-5 py-3 bg-primary text-white font-semibold rounded-lg flex w-36 mx-auto">Mulai Eksplor</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- INI BUAT APA -->
+
+
+    <section id="buat" class=" mt-20">
+        <div id="tentang" class=" text-body bg-primary w-32 text-center mx-auto h-2 rounded-tr-lg rounded-bl-lg mb-10">
+            .
+        </div>
+        <h3 id="tentang" class="text-center font-bold text-3xl mb-20 text-slate-700">Tentang kami</h3>
+        <div class="flex flex-wrap">
+            <div class="buatkiri md:w-1/2 self-center">
+                <div class="md:w-3/4 md:float-right mx-10 md:mx-0 pr-20">
+                    <h1 class="text-left text-slate-700 text-3xl font-bold mb-5">Sinau</h1>
+                    <div class="text-base text-slate-500">
+                        <span class="text-slate-700 font-semibold text-lg">Sinau —</span> Sinau adalah media yang secara periodik menyajikan informasi perkembangan kondisi infrastruktur pendidikan Indonesia untuk mewujudkan Sustainable Development Goals (SDGs) poin 4 tentang Pendidikan Berkualitas.
+                    </div>
+                    <div class="mt-10">
+                        <span class="text-slate-700 font-semibold text-lg">Fokus Kami</span>
+                        <div class="text-base text-slate-500">
+         Ada beberapa hal yang menjadi fokus kami khususnya pada dunia pendidikan di Indonesia ini, anatara lain:
+                        </div>
+                    </div>
+
+                    <div class="text-slate-500">
+                        — Infrastruktur belum merata. <br>
+                        — Akses pendidikan tidak memadai. <br>
+                        — Biaya pendidikan yang mahal.
+                    </div>
+
+                    <div class="text-slate-500 mt-10 mb-20">
+                        <span class="text-slate-700 font-semibold">Langkah</span>— Sebagai bentuk tindakan kongkrit kami adalah dengan turut serta membuat inovasi melalui sebuah website yang terintegrasi yang diberi nama <span class="text-slate-500 font-bold">Sinau</span>.
+                    </div>
+
+                    <a href="about.html" class="bg-primary py-4 px-8 text-white font-semibold rounded-lg">Tentang Kami</a>
+                </div>
+            </div>
+            <div class="buatkanan md:w-1/2 hidden md:block">
+                <img src="img/pc.webp" alt="" class="md:h-[700px] w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <div id="kontak" class="mb-20 bg-primary overflow-x-hidden mt-20 md:mt-0">
+        <div class="">
+            <div class="md:flex">
+                <div class="KontakKiri w-full text-center py-8 px-4 md:w-1/2 relative">
+                    <h3 class="text-white font-bold text-3xl md:text-5xl md:text-right md:mx-20 ">Hubungin kami disini</h3>
+                    <h1 class="text-biru2 font-bold     text-6xl md:hidden">SINAU</h1>
+                    <h1 class="text-biru2 font-bold text-9xl hidden md:block md:text-right md:mr-20">Sinau <br> Nau</h1>
+                </div>
+                <div class="KontakKanan md:w-1/2 relative">
+                    <form class="pt-5 bg-white md:rounded-bl-3xl md:py-10 z-50">
+                        <div class="w-full px-8 mb-8">
+                            <label for="name" class="text-base font-bold text-greenbase">Nama</label>
+                            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                        </div>
+
+                        <div class="w-full px-8 mb-8">
+                            <label for="name" class="text-base font-bold text-greenbase">Email</label>
+                            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                        </div>
+
+                        <div class="w-full px-8 mb-8">
+                            <label for="message" class="text-base font-bold text-greenbase">Pesan</label>
+                            <textarea type="text" id="message" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"></textarea>
+                        </div>
+                        <div class="px-8 pb-10">
+                            <button class="text-base font-semibold text-black bg-yellow py-3 px-8 rounded-lg hover:opacity-80
+                            hover:shadow-lg transition duration-500">
+                                Kirim
+                            </button>
+                        </div>
+                    </form>
+                    <div class="bg-white text-center hidden md:block -z-50 translate-x-10">
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+                        <span class="text-yellow text-5xl font-bold">/</span>
+
+                    </div>
+
+                    <div class="bg-yellow text-center py-3 md:translate-x-10">
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                        <span class="text-black opacity-10 text-5xl font-bold">></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HELPER -->
+    <section id="helper">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="text-3xl font-bold text-slate-700 pb-10">Temukan Kami</h3>
+            </div>
+
+            <div class="md:flex md:justify-center items-center">
+                <div class="flex justify-center mb-8">
+                    <img src="img/robot.png" alt="robotsinau">
+                </div>
+    
+                <div class="">
+                    <div class="text-center">
+                        <h2 class="text-slate-600 font-semibold mb-8 md:text-left">Hallo,<br>Perkenalkan aku Robi</h2>
+                    </div>
+        
+                    <div class="flex justify-evenly md:block">
+                        <a href="#" class="bg-primary text-white py-3 px-8 rounded-full md:px-12"><span><i class='bx bxl-discord-alt' ></i></span> Discord</a>
+                        <a href="#" class="bg-primary text-white py-3 px-8 rounded-full md:hidden"><span><i class='bx bxl-youtube' ></i></span> Youtube</a>
+                    </div>
+                    <a href="#" class="bg-primary text-white py-3 px-8 rounded-full hidden md:block mt-5 text-center"><span><i class='bx bxl-youtube' ></i></span> Youtube</a>
+                </div>
+    
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="w-full pt-20 bg-blue-50">
+        <div class="container md:flex md:justify-around md:mb-14">
+            <div class="px-4 mb-8">
+                <h3 class="text-black text-xl font-semibold">Komunitas : </h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="https://komunitasjendela.org/" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Komunitas Jendela</a>
+                        </li>
+                        <li>
+                            <a href="http://akademiberbagi.org/" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Akademi Berbagi</a>
+                        </li>
+                        <li>
+                            <a href="https://pencerahnusantara.org/" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Pencerah Nusantara</a>
+                        </li>
+                        <li>
+                            <a href="http://www.indonesiamengajar.org/" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Indonesia Mengajar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4 mb-3">
+                <h3 class="text-black text-xl font-semibold">Menu :</h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Beranda</a>
+                        </li>
+                        <li>
+                            <a href="artikelhome.html" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Artikel</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Tentang</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="px-4 mb-8">
+                <h3 class="text-black text-xl font-semibold mb-5">Kontak Kami : </h3>
+                <div class="flex">
+                    <ul class="flex">
+                        <li>
+                            <a href="#" class="py-3 px-3 bg-primary text-white text-xl mr-3"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="py-3 px-3 bg-primary text-white text-xl mr-3"><i class='bx bxl-youtube' ></i></a>
+                        </li>
+                        <li><a href="#" class="py-3 px-3 bg-primary text-white text-xl"><i class='bx bxl-linkedin-square' ></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bawah bg-blue-100 py-4">
+            <p class="text-slate-700 text-bold text-sm text-center">© 2022 Sinau, Bersama kita bangun Indonesia</p>
+        </div>
+    </footer>
+
+    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5" id="btn-back-to-top">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg>
+    </button>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
